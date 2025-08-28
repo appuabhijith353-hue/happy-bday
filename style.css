@@ -1,0 +1,66 @@
+body{
+    background-image:url(https://i.pinimg.com/736x/1c/da/38/1cda3831fa1930058188a7148a4ad751.jpg);
+    background-size: cover;
+    text-align: center;         
+    font-family:pacifico;
+   
+}
+
+@keyframes wiggle {
+  0%   { transform: rotate(0deg); }
+  25%  { transform: rotate(2deg); }
+  50%  { transform: rotate(-2deg); }
+  75%  { transform: rotate(2deg); }
+  100% { transform: rotate(0deg); }
+}
+
+
+h1{
+    font-size:100px;
+    color: rgb(55, 149, 255);
+    text-shadow: 2px 2px 4px #000000;
+    margin-top:2%;
+}
+img{
+    margin-top:5%;
+}
+.hr{
+   background-color: yellowgreen;
+    height: 2px;
+    border: none;
+    margin: 20px 0;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-decoration: antiquewhite;
+    color: rgb(198, 247, 255);
+}
+video{
+    border: none;
+}
+h5{
+    font-family: raleway;
+    font-size: 15px;
+    text-decoration: antiquewhite;
+    color: rgb(87, 171, 255);
+}
+@keyframes pulseGlow {
+  0%, 100% {
+    text-shadow: 0 0 5px rgb(0, 157, 255), 0 0 10px rgb(21, 204, 255), 0 0 20px rgb(84, 224, 255);
+  }
+  50% {
+    text-shadow: 0 0 10px rgb(75, 183, 255), 0 0 20px rgb(25, 186, 255), 0 0 30px rgb(0, 204, 255);
+  }
+}
+
+.glow-text {
+  color: rgb(113, 205, 255);
+  animation: pulseGlow 1.5s infinite;
+}
+
+
+
