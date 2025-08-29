@@ -38,6 +38,7 @@ p{
     font-size: 20px;
     text-decoration: antiquewhite;
     color: rgb(198, 247, 255);
+    text-align:center;
 }
 video{
     border: none;
@@ -60,6 +61,12 @@ h5{
 .glow-text {
   color: rgb(113, 205, 255);
   animation: pulseGlow 1.5s infinite;
+}
+footer{
+    text-align:center;
+}
+a{
+    text-align:center;
 }
 
 
